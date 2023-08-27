@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+#user-container {
+  max-width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.users-box {
+  max-width: 350px;
+  background-color: rgb(250, 209, 209);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
