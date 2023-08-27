@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+#posts-container {
+  max-width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.post-box {
+  max-width: 350px;
+  background-color: rgb(139, 106, 106);
+  color: rgb(236, 234, 234);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
